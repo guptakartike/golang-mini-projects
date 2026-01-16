@@ -18,6 +18,23 @@ Each project is self-contained and focuses on specific concepts.
 
 ---
 
+## 🚀 How to Run a Project
+
+Make sure Go is installed:
+```bash
+go version
+```
+Run any project using:
+```bash
+go run <filename>.go
+```
+Example:
+```bash
+go run cli-calculator.go
+```
+
+---
+
 ## 📂 Projects
 
 ### 1. CLI Calculator
@@ -38,20 +55,26 @@ A command-line calculator built in Go that supports basic arithmetic operations 
 - Division and modulo by zero handling
 - User-friendly CLI flow
 
-## 🚀 How to Run a Project
+---
 
-Make sure Go is installed:
-```bash
-go version
-```
-Run any project using:
-```bash
-go run <filename>.go
-```
-Example:
-```bash
-go run cli-calculator.go
-```
+### 2. Number Guessing Game
+**Description:**  
+A beginner-friendly command-line number guessing game written in Go where the player tries to guess a randomly generated number within a limited number of attempts.
+
+**Concepts Covered:**
+- Random number generation (`math/rand`)
+- Seeding randomness using `time`
+- Loops and conditional logic
+- User input handling with `bufio.Scanner`
+- String-to-integer conversion using `strconv`
+- Basic game logic and flow control
+
+**Features:**
+- Randomly generated secret number (1–100)
+- User-defined maximum number of attempts
+- Feedback for each guess (too low / too high)
+- Graceful handling of invalid input
+- Game ends on correct guess or when attempts are exhausted
 
 
 
