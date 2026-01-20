@@ -76,5 +76,26 @@ A beginner-friendly command-line number guessing game written in Go where the pl
 - Graceful handling of invalid input
 - Game ends on correct guess or when attempts are exhausted
 
+---
+
+### 3. To-Do CLI Application
+**Description:**  
+A command-line to-do list application written in Go that allows users to manage daily tasks interactively through a menu-driven interface.
+
+**Concepts Covered:**
+- Structs for data modeling
+- Slices for dynamic data storage
+- Menu-driven program design
+- User input handling using `bufio.Scanner`
+- String manipulation and validation
+- Basic state management in CLI applications
+
+**Features:**
+- Add new tasks
+- View all tasks with completion status
+- Mark tasks as completed
+- Delete tasks by index
+- Continuous menu loop until user exits
+- Input validation for safe operations
 
 
